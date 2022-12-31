@@ -2,7 +2,13 @@
 1. use "make start"
 2. Make will run a bunch of docker compose type scripts
 
-
+# view database
+1. Visit localhost:8080 > databases > postgres > scemas > tables
+2. connect:
+     hostname = the docker file databse container name: plaid-starter-app_db_1
+     post: 5432 (see docker compose)
+     username: postgres (see docker compose)
+     password: password (see docker compose)
 # env file must contain
 PLAID_CLIENT_ID=
 #PLAID_SECRET_DEVELOPMENT=
