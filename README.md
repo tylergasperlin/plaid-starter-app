@@ -2,7 +2,12 @@
 1. use "make start"
 2. Make will run a bunch of docker compose type scripts
 
-# Plaid Pattern
+
+# env file must contain
+PLAID_CLIENT_ID=
+#PLAID_SECRET_DEVELOPMENT=
+PLAID_SECRET_SANDBOX=
+PLAID_SANDBOX_REDIRECT_URI=http://localhost:3001/oauth-link
 
 ![Plaid Pattern client][client-img]
 
