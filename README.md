@@ -1,3 +1,7 @@
+# Start app
+1. use "make start"
+2. Make will run a bunch of docker compose type scripts
+
 # Plaid Pattern
 
 ![Plaid Pattern client][client-img]
